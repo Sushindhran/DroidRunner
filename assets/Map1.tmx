@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="basic_ground_tileset" tilewidth="32" tileheight="32">
+  <image source="basic_ground_tileset.png"/>
+ </tileset>
+ <tileset firstgid="37" name="mask_tile" tilewidth="32" tileheight="32">
+  <image source="mask_tile.png"/>
+ </tileset>
+ <layer name="Ground" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Zy06DQBgGUDZ1IV1oF+jCutC+/zOKkUkIgblQBtSck3wJLTCdyz+w6KlpmlNBHjJT0uZ/y9OKtH3OfR5X5DJk7vvUve0kz5VT2p8js7Qe50jWrN/RcxDrS2ystWtlrmbGv3+5I6X7M6efW+ylVG3UrLvS2gw1MK2JWM1sUTd7jTUnS2Pce/+2TXrec3IdpeS+1HPkiPocZ807eYuMnzlzeyD3eTUeS+51e78/jprj74SaXVr7sD9ic1eyHtP17Ar62mXMaeqapfNhLe55Ny7lZUiNNkvSJfLa/NRCOE7lmtFm6prU+TXjTCXUfI02S/IWSc7977KY2NzWytFj/s356PPZ5zYcTz/fKuToMYvkBgAAAAD+svC/LQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAyheEmeigQJwAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3USwoAIAgFQC/T/a/Ytl0JwSOaAXeC+MEqAOB3Ywl4RfpmO7VPcnc5iV47M07/D/sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCmCSxCnphAnAAA
+  </data>
+ </layer>
+</map>
